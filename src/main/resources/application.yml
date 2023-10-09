@@ -1,0 +1,16 @@
+server:
+  port: '6363'
+  
+# SMTP server configuration and # Additional properties for authentication and STARTTLS
+spring:
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: sankarbhavani6304@gmail.com
+    password: okhx iqlf zloo btdg
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
